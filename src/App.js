@@ -10,7 +10,7 @@ function App() {
   const [myCart, setCart] = useState([])
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/shoppingsite">
 
       <Routes>
         <Route path='/' element={<MainPage myCart={myCart} setCart={setCart}/> }>
